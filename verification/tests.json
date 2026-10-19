@@ -1,0 +1,14 @@
+[
+  {
+    "name": "rv_sum",
+    "sources": [
+      "rtl/*.sv"
+    ],
+    "tb": "verification/tb/rv_sum.sv",
+    "top": "audit_rv",
+    "pass_marker": "AUDIT SUM55 PASS",
+    "assets": [
+      "rtl/instruction_code.mem"
+    ]
+  }
+]
